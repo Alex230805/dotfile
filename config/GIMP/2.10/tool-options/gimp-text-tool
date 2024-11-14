@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.79636363636363638 0.79636363636363638 0.79636363636363638))
+(palette "Cronologia colore")
+(font "Sans-serif")
+(box-mode fixed)
+
+# end of gimp-text-tool options

@@ -1,0 +1,89 @@
+* {
+    border: none;
+    border-radius: 0px;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMono NL, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+    color: #fee0e0;
+}
+
+window#waybar {
+    background-color: #202020;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+
+#workspaces button {
+    background: #1f1f1f;
+    border-radius: 0px;
+    padding: 0px;
+
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover, #workspaces button.focused:hover {
+    background: #fffafa;
+    color: black;
+    border-bottom: 3px solid #ffffff;
+
+}
+
+#workspaces button.focused {
+    background: #1f1f1f;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#custom-launcher,
+#custom-power,
+#custom-layout,
+#custom-updater,
+#custom-snip,
+#custom-wallpaper,
+#tags,
+#taskbar,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    padding: 4px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:6px;
+    margin-bottom: 6px;
+    background-color: #2a2a2a;
+    color:#fee0e0;
+    border-radius: 1px;
+
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+

@@ -1,0 +1,36 @@
+Caricamento dell'estensione "Optimized PNG" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: optipng
+
+Caricamento dell'estensione "XFIG Input" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: fig2dev
+
+Caricamento dell'estensione "EPS Input" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: ps2pdf
+
+Caricamento dell'estensione "Export to PDF via Scribus" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: scribus
+
+Caricamento dell'estensione "PostScript Input" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: ps2pdf
+
+Caricamento dell'estensione "Formula (pdflatex)" fallita a causa di non è stata soddisfatta una dipendenza
+Dipendenza:
+	tipo: executable
+	posizione: tracciato
+	stringa: pdflatex
+

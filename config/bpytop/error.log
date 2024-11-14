@@ -1,0 +1,6 @@
+20/09/24 (13:08:38) | ERROR: Exception when sending signal 15 to pid 879
+20/09/24 (13:08:38) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5479, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted

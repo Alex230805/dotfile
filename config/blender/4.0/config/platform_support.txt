@@ -1,0 +1,1 @@
+{AMD/AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 18.1.8, DRM 3.54, 6.6.59_1)/4.6 (Core Profile) Mesa 24.2.6}=SUPPORTED
